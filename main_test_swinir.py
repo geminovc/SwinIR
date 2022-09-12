@@ -7,8 +7,8 @@ import os
 import torch
 import requests
 
-from models.network_swinir import SwinIR as net
-from utils import util_calculate_psnr_ssim as util
+from network_swinir import SwinIR as net
+#from SwinIR.utils import util_calculate_psnr_ssim as util
 
 
 def main():
